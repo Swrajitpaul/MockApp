@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -14,8 +12,9 @@
         android:layout_marginStart="80dp"
         android:layout_marginTop="60dp"
         android:layout_marginEnd="124dp"
-        android:text="Welcome to "
+        android:text="@string/welcome_to"
         android:textSize="34sp"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,6 +29,7 @@
         android:layout_marginEnd="100dp"
         android:text="@string/name_text"
         android:textSize="34sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,6 +44,7 @@
         android:layout_marginEnd="178dp"
         android:text="@string/app"
         android:textSize="34sp"
+        android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +57,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="151dp"
-        android:text="Projects"
+        android:text="@string/projects"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/resume_button" />
@@ -68,7 +69,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="151dp"
-        android:text="Github"
+        android:text="@string/github"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/project_button" />
@@ -80,7 +81,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="151dp"
-        android:text="About"
+        android:text="@string/about"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/app" />
@@ -92,7 +93,7 @@
         android:layout_marginStart="140dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="151dp"
-        android:text="Resume"
+        android:text="@string/resume"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/about_button" />

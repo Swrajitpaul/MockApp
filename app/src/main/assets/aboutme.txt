@@ -2,8 +2,9 @@
 <html lang="en-US">
   <body>
     <section>
-        <h2 >About Me</h2>
+      <div>
         <p>
+          <br />
           My name is <strong>Swrajit Paul</strong>.
           <br />
           I am a <strong>SDET</strong> {Software Development Engineer in Test} at <strong>Mastercard</strong> in New York City.
@@ -102,7 +103,7 @@
           am the only tester in the team.
         </p>
       </div>
-      <dic>
+      <div>
         <h2> College Course Work </h2>
         <p>
           Discrete math
@@ -135,7 +136,7 @@
           Business Intelligence
           <br />
         </p>
-      </dic>
+      </div>
       <div>
         <h2 >Certificates/Awards</h2>
         <p>

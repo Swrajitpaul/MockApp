@@ -10,9 +10,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import io.github.swrajitpaul.databinding.FragmentAboutBinding
 
-/**
- * A simple [Fragment] subclass as the second destination in the navigation.
- */
 class AboutFragment : Fragment() {
 
     private var _binding: FragmentAboutBinding? = null
@@ -25,7 +22,7 @@ class AboutFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         _binding = FragmentAboutBinding.inflate(inflater, container, false)
 
         viewModel = ViewModelProvider(this).get(AboutMeViewModel::class.java)
@@ -34,7 +31,6 @@ class AboutFragment : Fragment() {
         })
 
         return binding.root
-
     }
 
     override fun onDestroyView() {
