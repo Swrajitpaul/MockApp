@@ -9,5 +9,4 @@ class AboutMeViewModel(val app: Application): AndroidViewModel(app){
     private val dataRepo = DataRepository(app)
 
     val aboutMeData = dataRepo.aboutMeData
-
 }

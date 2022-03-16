@@ -1,0 +1,56 @@
+[
+  {
+    "projectName": "Basic C++ and Java Projects",
+    "language": "Java, C++",
+    "description": "Basic programs coded in c++ and java",
+    "url": "https://github.com/Swrajitpaul/YearOneCollege"
+  },
+  {
+    "projectName": "Basic Python Projects",
+    "language": "Python",
+    "description": "Basic programs coded in python",
+    "url": "https://github.com/Swrajitpaul/python"
+  },
+  {
+    "projectName": "Intermediate C++ and Java Projects",
+    "language": "Java, C++",
+    "description": "Intermediate programs coded in C++ and Java",
+    "url": "https://github.com/Swrajitpaul/YearTwoCollege"
+  },
+  {
+    "projectName": "Design and Analysis of Algorithms",
+    "language": "Java",
+    "description": "Sorting algorithms",
+    "url": "https://github.com/Swrajitpaul/Algorithms"
+  },
+  {
+    "projectName": "Data Structure",
+    "language": "Java",
+    "description": "Common data structures",
+    "url": "https://github.com/Swrajitpaul/DataStructure"
+  },
+  {
+    "projectName": "Programming Languages",
+    "language": "Lisp, Tiny J (Subset of Java)",
+    "description": "Understanding what a programming language is by creating a simple language",
+    "url": "https://github.com/Swrajitpaul/Programming-Languages"
+  },
+  {
+    "projectName": "Operating System",
+    "language": "Java",
+    "description": "Programs related to operating system",
+    "url": "https://github.com/Swrajitpaul/OperatingSystem"
+  },
+  {
+    "projectName": "Software Engineering",
+    "language": "Java",
+    "description": "Software engineering solutions",
+    "url": "https://github.com/Swrajitpaul/SoftwareEngineering"
+  },
+  {
+    "projectName": "Powerpoint presentations",
+    "language": "English",
+    "description": "PPT from different projects",
+    "url": "https://swrajitpaul.github.io/Pages/presentations.html"
+  }
+]
